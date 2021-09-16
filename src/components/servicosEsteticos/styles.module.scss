@@ -59,10 +59,11 @@
 
 @media screen and (max-width: 768px) {
 
-    .imagem {
-        grid-column: 1;
-        grid-row: 1;
-    }
+.imagem {
+    grid-column: 1;
+    grid-row: 1;
+}
+
     .corpo {
         grid-template-columns: 1fr;
         row-gap: 5vmax;
@@ -96,6 +97,7 @@
         }
     }
     
+
     > div:nth-of-type(4){
         grid-column: 1;
         grid-row: 5;
