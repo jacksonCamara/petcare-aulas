@@ -1,0 +1,34 @@
+[
+    {
+        "titulo": "Banho",
+        "descricao": "Nossos banhos são realizados de acordo com a raça do seu cão",
+        "icone": {
+            "prefix": "fas",
+            "name": "bath"
+        }
+    },
+    {
+        "titulo": "Estililização",
+        "descricao": "O seu pet pode ser estilizado com as mais novas tendências do mundo animal",
+        "icone": {
+            "prefix": "fas",
+            "name": "paint-brush"
+        }
+    },
+    {
+        "titulo": "Tosa",
+        "descricao": "Nossos profissionais possuem treinamento de tosa de acordo com a raça do seu pet ",
+        "icone": {
+            "prefix": "fas",
+            "name": "cut"
+        }
+    },
+    {
+        "titulo": "Banho medicamentoso",
+        "descricao": "O banho pode ser realizado com medicamntos conforme orientação do médico veterinário",
+        "icone": {
+            "prefix": "fas",
+            "name": "briefcase-medical"
+        }
+    }
+]

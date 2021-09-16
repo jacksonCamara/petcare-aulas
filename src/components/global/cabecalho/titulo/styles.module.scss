@@ -1,0 +1,22 @@
+@import "../../../../styles/variables.scss";
+
+.titulo{
+    text-transform: uppercase;
+    color: $cor-primaria;
+    font-weight: 700;
+    font-size: $fonte-tamanho-grande;
+}
+
+// (tamanhoFonte - maiorTamanhoTelaProjeto) / maiorTamanhoTelaProjeto * 100 + 100
+
+//retrato
+// vw = 375
+ // vh 667
+ // vmax 667
+ // vmin 375
+
+ //paisagem
+//  vw = 667
+// vh 375
+// vmax 667
+// vmin 375

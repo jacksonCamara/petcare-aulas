@@ -1,0 +1,10 @@
+@import "../../../../styles/variables.scss";
+
+.subtitulo{
+    text-transform: uppercase;
+    color: $cor-secundaria;
+    font-weight: 700;
+    font-size: $fonte-tamanho-micro;
+}
+
+// (tamanhoFonte - maiorTamanhoTelaProjeto) / maiorTamanhoTelaProjeto * 100 + 100

@@ -1,0 +1,34 @@
+@import "../../../styles/variables.scss";
+
+.servicoEstetico{
+    display: flex;
+    flex-direction: column;
+    gap: 0.63vmax
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.63vmax;
+}
+
+.titulo{
+    font-size: $fonte-tamanho-medio;
+    color: $cor-base-escuro;
+    font-weight: 700;
+}
+
+.descricao{
+    font-size: $fonte-tamanho-pequeno;
+    color: $cor-base;
+    font-weight: 500;
+}
+
+.icone{
+    font-size: $fonte-tamanho-micro;
+}
+
+@media screen and (max-width: 768px) {
+
+}

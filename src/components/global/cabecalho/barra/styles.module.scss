@@ -1,0 +1,9 @@
+@import "../../../../styles/variables.scss";
+
+.barra{
+    width: 6.51vmax;
+    height: clamp(2px, 0.21vmax, 0.21vmax);
+    background-color: $cor-secundaria ;
+}
+
+// (tamanhoElemento- maiorTamanhoTelaProjeto) / maiorTamanhoTelaProjeto * 100 + 100

@@ -1,0 +1,33 @@
+[
+    {
+         "nome": "Leandro Amorim",
+         "profissao": "Médico veterinário e Diretor da clínica PetCare",
+         "imagem": {
+             "src": "/assets/medico-veterinario-leandro.jpg",
+             "alt": "Médico Veterinário Leandro",
+             "width": 680,
+             "height": 940
+         }
+     },
+     {
+         "nome": "Louise Moreira",
+         "profissao": "Médica veterinária doutorada em cirurgia",
+         "imagem": {
+             "src": "/assets/medico-veterinario-louise.jpg",
+             "alt": "Médico Veterinário Louise",
+             "width": 680,
+             "height": 940
+         }
+     },
+     {
+         "nome": "Igor Amorim",
+         "profissao": "Médico veterinário especialista em ortopedia",
+         "imagem": {
+             "src": "/assets/medico-veterinario-igor.jpg",
+             "alt": "Médico Veterinário Igor",
+             "width": 680,
+             "height": 940
+         }
+     }
+ ]
+ 
