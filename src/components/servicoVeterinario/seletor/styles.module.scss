@@ -1,12 +1,11 @@
 @import "../../../styles/variables.scss";
 
-.seletor{
+.seletor {
     display: flex;
     gap: clamp(1rem, 1.09vmax, 1.09vmax);
     align-items: center;
     flex-direction: row-reverse;
     justify-content: flex-end;
-
 }
 
 .link {
@@ -19,6 +18,7 @@
         color: $cor-secundaria;
         + .barra{
             background-color: $cor-secundaria;
+            opacity: 1;
         }
     }
 }
@@ -26,23 +26,24 @@
 .barra {
     width: 6px;
     background-color: $cor-base;
-    height: clamp(1rem, 3.33vmax, 3.33vmax)
+    height: clamp(1rem, 3.33vmax, 3.33vmax);
+    opacity: 0;
 }
 
-.link:hover{
-    color: $cor-secundaria;
-}
+// .link:hover{
+//     color: $cor-secundaria;
+// }
 
-.link:hover + .barra{
-    background-color: $cor-secundaria;
-}
+// .link:hover + .barra{
+//     background-color: $cor-secundaria;
+// }
 
-.link:hover{
-    color: $cor-secundaria;
-    + .barra{
-        background-color: $cor-secundaria;
-    }
-}
+// .link:hover{
+//     color: $cor-secundaria;
+//     + .barra{
+//         background-color: $cor-secundaria;
+//     }
+// }
 
 
 
