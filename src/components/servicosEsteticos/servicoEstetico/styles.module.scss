@@ -23,9 +23,27 @@
     font-size: $fonte-tamanho-pequeno;
     color: $cor-base;
     font-weight: 500;
+    text-align: right;
 }
 
 .icone{
     font-size: $fonte-tamanho-micro;
 }
 
+.cabecalhoEsquerda{
+    flex-direction: row-reverse;
+}
+
+.descricaoEsquerda{
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        flex-direction: column-reverse;
+    }
+
+    .descricao{
+        text-align: center;
+    }
+}
