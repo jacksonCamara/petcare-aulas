@@ -4,12 +4,23 @@
     display: flex;
     gap: clamp(1rem, 1.09vmax, 1.09vmax);
     align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
 }
 
-.link{
+.link {
     font-size: $fonte-tamanho-medio;
     color: $cor-base;
     font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+        color: $cor-secundaria;
+        + .barra{
+            background-color: $cor-secundaria;
+        }
+    }
 }
 
 .barra {
@@ -17,4 +28,21 @@
     background-color: $cor-base;
     height: clamp(1rem, 3.33vmax, 3.33vmax)
 }
+
+.link:hover{
+    color: $cor-secundaria;
+}
+
+.link:hover + .barra{
+    background-color: $cor-secundaria;
+}
+
+.link:hover{
+    color: $cor-secundaria;
+    + .barra{
+        background-color: $cor-secundaria;
+    }
+}
+
+
 
