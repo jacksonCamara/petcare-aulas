@@ -5,6 +5,7 @@ import Head from "next/head";
 import MedicosVeterinarios from "../components/medicosVeterinarios";
 import { dom } from "@fortawesome/fontawesome-svg-core";
 import ServicosEsteticos from "../components/servicosEsteticos";
+import { ServicosVeterinarios } from "../components/servicoVeterinario";
 
 const Home: NextPage = () => {
     return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
                 <style>{dom.css()}</style>
             </Head>
             <ServicosEsteticos />
+            <ServicosVeterinarios />
             <MedicosVeterinarios />
         </div>
     );

@@ -1,0 +1,28 @@
+.servicosVeterinarios {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
+
+.cabecalho {
+    width: 80%;
+    margin-top: 3.38vmax;
+    background-color: blue;
+}
+
+.corpo {
+    display: flex;
+    width: 80%;
+    margin-top: 5.2vmax;
+    background-color: yellow;
+}
+
+.seletores {
+    width: 40%;
+}
+
+.servicoVeterinario {
+    width: 60%;
+}
