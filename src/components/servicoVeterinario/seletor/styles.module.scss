@@ -13,6 +13,9 @@
     color: $cor-base;
     font-weight: 700;
     cursor: pointer;
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
 
     &:hover {
         color: $cor-secundaria;
@@ -28,6 +31,7 @@
     background-color: $cor-base;
     height: clamp(1rem, 3.33vmax, 3.33vmax);
     opacity: 0;
+    transition: background-color 300ms ease-out, opacity 300ms ease-out;
 }
 
 // .link:hover{
