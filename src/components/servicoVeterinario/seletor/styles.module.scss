@@ -1,0 +1,20 @@
+@import "../../../styles/variables.scss";
+
+.seletor{
+    display: flex;
+    gap: clamp(1rem, 1.09vmax, 1.09vmax);
+    align-items: center;
+}
+
+.link{
+    font-size: $fonte-tamanho-medio;
+    color: $cor-base;
+    font-weight: 700;
+}
+
+.barra {
+    width: 6px;
+    background-color: $cor-base;
+    height: clamp(1rem, 3.33vmax, 3.33vmax)
+}
+
